@@ -67,7 +67,7 @@ def calculate_scope2(kwh_used, State="Washington"):
     grid_factors = {
         "Washington": 0.385  # kg CO₂/kWh
     }
-    return (kwh_used * grid_factors.get(State, 0.3)) / 907.185
+    return (kwh_used * grid_factors.get(State, 0.3)) / .907185
 
 # For improvement recommendations
 tiers = {
